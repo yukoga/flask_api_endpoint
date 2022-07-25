@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "flaskapp",
+                "FLASK_APP": "flaskapi",
                 "FLASK_ENV": "development"
             },
             "args": [
@@ -26,7 +26,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "flaskapp",
+                "FLASK_APP": "flaskapi",
                 "FLASK_ENV": "development"
             },
             "args": [

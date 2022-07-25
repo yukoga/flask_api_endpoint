@@ -16,7 +16,7 @@
 # ==============================================================================
 
 import pytest
-from flaskapp import create_app
+from flaskapi import create_app
 
 
 def test_config():

@@ -20,7 +20,7 @@ from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 from werkzeug.exceptions import abort
-from flaskapp.db import get_db
+from flaskapi.db import get_db
 
 
 bp = Blueprint('posts', __name__, url_prefix='/posts')

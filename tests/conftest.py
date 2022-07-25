@@ -19,7 +19,7 @@ import os
 import tempfile
 
 import pytest
-from flaskapp import create_app
+from flaskapi import create_app
 
 
 @pytest.fixture
